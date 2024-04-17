@@ -14,7 +14,7 @@ export default function Cadastro() {
 
   return (
     <View style={styles.container}>
-
+falta
 
       <View style={styles.inputContainer}>
 
