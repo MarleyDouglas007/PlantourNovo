@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PlantourNovo",
-    "slug": "PlantourNovo",
+    "name": "Plantour",
+    "slug": "Plantour",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#37A6F5"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +25,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "your-app-scheme"
+
   }
 }
